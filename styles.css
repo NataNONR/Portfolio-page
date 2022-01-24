@@ -9,11 +9,25 @@ body {
 }
 
 h1 {
-  font-size: 140px;
+  font-size: 96px;
+}
+h2 {
+  font-size: 60px;
+  margin: 45px 0;
+}
+h3 {
+  font-size: 24px;
+}
+p {
+  font-size: 18px;
+}
+
+button {
+  margin-top: 40px;
 }
 
 .hero {
-  padding: 350px;
-  background-color: #424449;
+  padding: 300px;
+  background-color: #38393b;
   color: #fbfbff;
 }
