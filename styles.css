@@ -53,3 +53,13 @@ button {
     padding: 120px 10px;
   }
 }
+
+.p-project {
+  font-size: 16px;
+  text-align: left;
+  margin: 0 50px;
+}
+
+.picture-link:hover {
+  cursor: pointer;
+}
