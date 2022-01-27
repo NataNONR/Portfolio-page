@@ -13,16 +13,11 @@ h1 {
 }
 h2 {
   font-size: 60px;
-  margin: 80px 0;
+  margin: 45px 0;
 }
 h3 {
   font-size: 24px;
 }
-p {
-  font-size: 18px;
-  padding: 0 80px;
-}
-
 button {
   margin-top: 60px;
 }
@@ -31,6 +26,11 @@ button {
   padding: 250px;
   background-color: #38393b;
   color: #fbfbff;
+}
+
+.p-home {
+  font-size: 18px;
+  padding: 0 80px;
 }
 
 @media (max-width: 576px) {
@@ -60,8 +60,7 @@ button {
 
 .p-project {
   font-size: 16px;
-  text-align: left;
-  margin: 0 50px;
+  margin: 0 130px;
 }
 
 .picture-link:hover {
@@ -84,4 +83,19 @@ button {
 }
 .nav-active {
   background-color: #ffffff !important;
+}
+
+.head-project {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.topic-w-margin {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.content-on-left {
+  text-align: left;
+}
+.content-on-right {
+  text-align: right;
 }
