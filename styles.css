@@ -74,6 +74,10 @@ button {
 }
 .head-contact {
   margin-top: 0px;
+  margin-bottom: 10px;
+}
+.contact-detail {
+  margin-top: 80px;
 }
 
 .navbar-scroll {
@@ -98,4 +102,29 @@ button {
 }
 .content-on-right {
   text-align: right;
+}
+
+/* Typing Effect */
+.typewriter {
+  overflow: hidden;
+  border-right: 3px solid orange;
+  white-space: nowrap;
+  display: inline-block;
+  animation: typing 5s steps(35, end) forwards, blink 0.8s infinite;
+}
+@keyframes typing {
+  from {
+    max-width: 0;
+  }
+  to {
+    max-width: 100%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: orange;
+  }
 }
