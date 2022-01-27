@@ -72,3 +72,12 @@ button {
 .head-contact {
   margin-top: 0px;
 }
+
+.navbar-scroll {
+  width: 100%;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+}
+.nav-active {
+  background-color: #ffffff !important;
+}
