@@ -22,15 +22,30 @@ button {
   margin-top: 60px;
 }
 
+.primary-bg-and-text {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+/* Main Page */
 .hero {
   padding: 250px;
-  background-color: #38393b;
+  background-color: #1f2022;
   color: #fbfbff;
 }
 
 .p-home {
   font-size: 18px;
   padding: 0 80px;
+}
+
+.navbar-scroll {
+  width: 100%;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+}
+.nav-active {
+  background-color: #ffffff !important;
 }
 
 @media (max-width: 576px) {
@@ -54,6 +69,7 @@ button {
   }
 }
 
+/* Projects Page */
 .first-row {
   margin-top: 5px !important;
 }
@@ -63,10 +79,23 @@ button {
   margin: 0 130px;
 }
 
-.picture-link:hover {
-  cursor: pointer;
+.head-project {
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
+.topic-w-margin {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.content-on-left {
+  text-align: left;
+}
+.content-on-right {
+  text-align: right;
+}
+
+/* Contact Page */
 .p-contact {
   font-size: 14px;
   margin-top: 100px;
@@ -78,30 +107,6 @@ button {
 }
 .contact-detail {
   margin-top: 80px;
-}
-
-.navbar-scroll {
-  width: 100%;
-  position: fixed;
-  transition: 0.3s ease-in-out;
-}
-.nav-active {
-  background-color: #ffffff !important;
-}
-
-.head-project {
-  margin-top: 80px;
-  margin-bottom: 100px;
-}
-.topic-w-margin {
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-.content-on-left {
-  text-align: left;
-}
-.content-on-right {
-  text-align: right;
 }
 
 /* Typing Effect */
