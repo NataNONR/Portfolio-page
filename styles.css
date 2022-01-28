@@ -96,9 +96,35 @@ button {
 }
 
 /* Contact Page */
+.whole-content {
+  margin: 100px 300px;
+  border: 0.3em solid #ffffff;
+  border-radius: 30px;
+  animation: flicker 5s infinite alternate;
+}
+/* Animate neon flicker */
+@keyframes flicker {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    box-shadow: 0 0 0.5rem #ffffff, inset 0 0 0.5rem #ffffff, 0 0 2rem #e44ec3,
+      inset 0 0 2rem #e44ec3, 0 0 4rem #e44ec3, inset 0 0 4rem #e44ec3;
+  }
+  20%,
+  24%,
+  55% {
+    box-shadow: none;
+  }
+}
+
 .p-contact {
   font-size: 14px;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 0px;
 }
 .head-contact {
