@@ -30,19 +30,20 @@ button {
 
 /* Main Page */
 .name-styling {
+  color: #ffffff;
   font-weight: 700;
-  text-shadow: 1px 1px 1px #e44ec3, 1px 2px 1px #e44ec3, 1px 3px 1px #e44ec3,
-    1px 4px 1px #e44ec3, 1px 5px 1px #e44ec3, 1px 6px 1px #e44ec3,
-    1px 7px 1px #e44ec3, 1px 8px 1px #e44ec3, 1px 9px 1px #e44ec3,
-    1px 10px 1px #e44ec3, 1px 18px 6px rgba(90, 8, 52, 0.4),
-    1px 22px 10px rgba(90, 8, 52, 0.2), 1px 25px 35px rgba(90, 8, 52, 0.2),
-    1px 30px 60px rgba(90, 8, 52, 0.4);
+  text-shadow: 1px 1px 1px #65a702, 1px 2px 1px #65a702, 1px 3px 1px #65a702,
+    1px 4px 1px #65a702, 1px 5px 1px #65a702, 1px 6px 1px #65a702,
+    1px 7px 1px #65a702, 1px 8px 1px #65a702, 1px 9px 1px #65a702,
+    1px 10px 1px #65a702, 1px 18px 6px rgba(250, 255, 244, 0.4),
+    1px 22px 10px rgba(250, 255, 244, 0.2),
+    1px 25px 35px rgba(250, 255, 244, 0.2),
+    1px 30px 60px rgba(250, 255, 244, 0.4);
 }
 .hero {
-  border: solid 40px #000000;
   padding: 200px;
-  background-color: #7e5b71;
-  color: #fbfbff;
+  background-color: #000000;
+  color: #ffe7fa;
 }
 
 .p-home {
@@ -76,8 +77,10 @@ button {
   }
 
   .hero {
-    padding: 80px 10px;
-    border: solid 25px #000000;
+    padding: 100px 10px;
+  }
+  .button-phone {
+    margin-top: 110px;
   }
 }
 
@@ -124,8 +127,8 @@ button {
   54%,
   56%,
   100% {
-    box-shadow: 0 0 0.5rem #ffffff, inset 0 0 0.5rem #ffffff, 0 0 2rem #e44ec3,
-      inset 0 0 2rem #e44ec3, 0 0 4rem #e44ec3, inset 0 0 4rem #e44ec3;
+    box-shadow: 0 0 0.5rem #ffffff, inset 0 0 0.5rem #ffffff, 0 0 2rem #65a702,
+      inset 0 0 2rem #65a702, 0 0 4rem #65a702, inset 0 0 4rem #65a702;
   }
   20%,
   24%,
