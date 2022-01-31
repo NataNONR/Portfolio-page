@@ -144,7 +144,11 @@ button {
   margin-bottom: 10px;
 }
 .contact-detail {
-  margin-top: 80px;
+  margin: 60px 0;
+  font-size: 26px;
+}
+.contact-detail a {
+  text-decoration: none;
 }
 
 /* Typing Effect */
