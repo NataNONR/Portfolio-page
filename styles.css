@@ -17,6 +17,7 @@ h2 {
 }
 h3 {
   font-size: 24px;
+  margin: 30px 0;
 }
 button {
   margin-top: 60px;
@@ -28,9 +29,19 @@ button {
 }
 
 /* Main Page */
+.name-styling {
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #e44ec3, 1px 2px 1px #e44ec3, 1px 3px 1px #e44ec3,
+    1px 4px 1px #e44ec3, 1px 5px 1px #e44ec3, 1px 6px 1px #e44ec3,
+    1px 7px 1px #e44ec3, 1px 8px 1px #e44ec3, 1px 9px 1px #e44ec3,
+    1px 10px 1px #e44ec3, 1px 18px 6px rgba(90, 8, 52, 0.4),
+    1px 22px 10px rgba(90, 8, 52, 0.2), 1px 25px 35px rgba(90, 8, 52, 0.2),
+    1px 30px 60px rgba(90, 8, 52, 0.4);
+}
 .hero {
-  padding: 250px;
-  background-color: #1f2022;
+  border: solid 40px #000000;
+  padding: 200px;
+  background-color: #7e5b71;
   color: #fbfbff;
 }
 
@@ -65,7 +76,8 @@ button {
   }
 
   .hero {
-    padding: 120px 10px;
+    padding: 80px 10px;
+    border: solid 25px #000000;
   }
 }
 
