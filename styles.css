@@ -32,13 +32,13 @@ button {
 .name-styling {
   color: #ffffff;
   font-weight: 700;
-  text-shadow: 1px 1px 1px #65a702, 1px 2px 1px #65a702, 1px 3px 1px #65a702,
-    1px 4px 1px #65a702, 1px 5px 1px #65a702, 1px 6px 1px #65a702,
-    1px 7px 1px #65a702, 1px 8px 1px #65a702, 1px 9px 1px #65a702,
-    1px 10px 1px #65a702, 1px 18px 6px rgba(250, 255, 244, 0.4),
-    1px 22px 10px rgba(250, 255, 244, 0.2),
-    1px 25px 35px rgba(250, 255, 244, 0.2),
-    1px 30px 60px rgba(250, 255, 244, 0.4);
+  text-shadow: 1px 1px 1px #001ff7, 1px 2px 1px #001ff7, 1px 3px 1px #001ff7,
+    1px 4px 1px #001ff7, 1px 5px 1px #001ff7, 1px 6px 1px #001ff7,
+    1px 7px 1px #001ff7, 1px 8px 1px #001ff7, 1px 9px 1px #001ff7,
+    1px 10px 1px #001ff7, 1px 18px 6px rgba(214, 219, 255, 0.4),
+    1px 22px 10px rgba(214, 219, 255, 0.2),
+    1px 25px 35px rgba(214, 219, 255, 0.2),
+    1px 30px 60px rgba(214, 219, 255, 0.4);
 }
 .hero {
   padding: 200px;
@@ -118,7 +118,7 @@ button {
 
 .background-control {
   padding: 1px;
-  border: solid 1px #ffcc00;
+  border: solid 2px #ffcc00;
   border-radius: 10px;
   background-color: #ffffff;
 }
