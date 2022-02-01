@@ -1,9 +1,4 @@
 body {
-  /* font-family: "Comfortaa", cursive; */
-  /* font-family: "Josefin Sans", sans-serif; */
-  /* font-family: "Kreon", serif; */
-  /* font-family: "Nanum Pen Script", cursive; */
-  /* font-family: "Niramit", sans-serif; */
   font-family: "Ubuntu", sans-serif;
   text-align: center;
 }
@@ -13,24 +8,56 @@ h1 {
 }
 h2 {
   font-size: 60px;
-  margin: 50px 0;
+  margin: 45px 0;
 }
 h3 {
   font-size: 24px;
+  margin: 30px 0;
 }
-p {
-  font-size: 18px;
-  padding: 0 80px;
-}
-
 button {
   margin-top: 60px;
 }
 
+a {
+  text-decoration: none;
+}
+
+.primary-bg-and-text {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+/* Main Page */
+.name-styling {
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #001ff7, 1px 2px 1px #001ff7, 1px 3px 1px #001ff7,
+    1px 4px 1px #001ff7, 1px 5px 1px #001ff7, 1px 6px 1px #001ff7,
+    1px 7px 1px #001ff7, 1px 8px 1px #001ff7, 1px 9px 1px #001ff7,
+    1px 10px 1px #001ff7, 1px 18px 6px rgba(214, 219, 255, 0.4),
+    1px 22px 10px rgba(214, 219, 255, 0.2),
+    1px 25px 35px rgba(214, 219, 255, 0.2),
+    1px 30px 60px rgba(214, 219, 255, 0.4);
+}
 .hero {
-  padding: 250px;
-  background-color: #38393b;
-  color: #fbfbff;
+  padding: 200px;
+  background-color: #000000;
+  color: #ffe7fa;
+}
+
+.p-home {
+  font-family: "Kreon", serif;
+  font-size: 18px;
+  padding: 0 80px;
+}
+
+.navbar-scroll {
+  width: 100%;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+}
+.nav-active {
+  background-color: #ffffff !important;
 }
 
 @media (max-width: 576px) {
@@ -50,25 +77,139 @@ button {
   }
 
   .hero {
-    padding: 120px 10px;
+    padding: 100px 10px;
   }
+  .button-phone {
+    margin-top: 110px;
+  }
+}
+
+/* Projects Page */
+.project-page {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.first-row {
+  margin-top: 5px !important;
 }
 
 .p-project {
   font-size: 16px;
-  text-align: left;
-  margin: 0 50px;
+  margin: 0 130px;
 }
 
-.picture-link:hover {
-  cursor: pointer;
+.head-project {
+  margin: 100px 0;
+  text-shadow: #ffcc00 3px 0 10px;
+}
+
+.topic-w-margin {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.content-on-left {
+  text-align: left;
+}
+.content-on-right {
+  text-align: right;
+}
+
+.background-control {
+  padding: 1px;
+  border: solid 2px #ffcc00;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.project-button {
+  margin: 15px 0;
+  color: #ffcc00;
+  border: 2px solid #ffcc00;
+}
+.project-button:hover {
+  background: #ffcc00;
+  box-shadow: 0 0 5px #ffcc00, 0 0 25px #ffcc00, 0 0 50px #ffcc00,
+    0 0 200px #ffcc00;
+}
+
+/* Contact Page */
+.whole-content {
+  margin: 150px 260px;
+  border: 0.3em solid #ffffff;
+  border-radius: 30px;
+  animation: flicker 5s infinite alternate;
+}
+/* Animate neon flicker */
+@keyframes flicker {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    box-shadow: 0 0 0.5rem #ffffff, inset 0 0 0.5rem #ffffff, 0 0 2rem #cc0992,
+      inset 0 0 2rem #cc0992, 0 0 4rem #cc0992, inset 0 0 4rem #cc0992;
+  }
+  20%,
+  24%,
+  55% {
+    box-shadow: none;
+  }
 }
 
 .p-contact {
-  font-size: 14px;
-  margin-top: 100px;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 20px;
+  margin-top: 70px;
   margin-bottom: 0px;
 }
 .head-contact {
   margin-top: 0px;
+  margin-bottom: 10px;
+}
+.contact-detail {
+  margin: 70px 0;
+  font-size: 26px;
+}
+
+/* Typing Effect */
+.typewriter {
+  overflow: hidden;
+  border-right: 3px solid orange;
+  white-space: nowrap;
+  display: inline-block;
+  animation: typing 5s steps(35, end) forwards, blink 0.8s infinite;
+}
+@keyframes typing {
+  from {
+    max-width: 0;
+  }
+  to {
+    max-width: 100%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: orange;
+  }
+}
+
+footer {
+  margin-top: 100px;
+}
+.contact-footer p {
+  margin: 0;
+}
+.contact-footer {
+  background: #ffffff;
+  padding-top: 10px;
+  color: #000000;
+  display: block;
+  font-size: 14px;
 }

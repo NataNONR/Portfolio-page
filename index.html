@@ -36,7 +36,10 @@
   <body>
     <!-- NAVBAR -->
     <div class="d-none d-sm-block">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top py-0 navbar-scroll"
+        style="background-color: #5d72ff"
+      >
         <div class="container-fluid">
           <div
             class="collapse navbar-collapse justify-content-center"
@@ -47,7 +50,7 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="index.html#about-me"
+                  href="index.html#marking"
                   >About</a
                 >
               </li>
@@ -55,7 +58,7 @@
                 <a class="nav-link" href="project.html">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -64,32 +67,56 @@
     </div>
     <!-- HERO -->
     <div class="hero">
-      <h1>Nattha Oroz</h1>
+      <span class="name-styling"> <h1>Nattha Oroz</h1></span>
       <h3>Front-end developer based in Europe</h3>
       <!-- BUTTONS for phones -->
-      <div class="d-sm-none d-block">
-        <button type="button" class="btn btn-dark" href="project.html">
+      <div class="d-sm-none d-block button-phone">
+        <a
+          href="project.html"
+          type="button"
+          class="btn btn-primary mx-1"
+          role="button"
+        >
           Projects
-        </button>
-        <button type="button" class="btn btn-dark">Contact</button>
+        </a>
+        <a
+          href="contact.html"
+          type="button"
+          class="btn btn-primary mx-1"
+          role="button"
+        >
+          Contact
+        </a>
       </div>
     </div>
+    <h4 id="marking"></h4>
 
     <!-- ABOUT -->
-    <div id="about-me">
-      <h2>About me</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
+    <div>
+            <h2>About me</h2>
+      <p class="p-home">
+        A motivated learner seeking for an opportunity. 
+       </br>
+        My recent work was in an
+        IT company providing services for business in hospitality industry. 
+        </br>
+        The roles covered
+        hotel operation consulting, software configuration and customer support.
+        </br>
+        I grew interest in coding and here are what I have learned recently:
+        HTML, CSS and Javascript. 
+        </br>
+        My learning progress is reflected through the
+        projects you will find on this site, including the site itself.
+        </br>
+        Below are the snapshots of the pages. Please check on Projects for more detail.
       </p>
       <div class="container">
         <div class="row">
           <div class="col-sm-4 text-center">
             <img
-              src="images/yoga.png"
-              alt="yoga app page"
+              src="images/gemstone.png"
+              alt="gemstone page"
               class="img-fluid rounded shadow p-2"
             />
           </div>
@@ -102,13 +129,35 @@
           </div>
           <div class="col-sm-4 text-center">
             <img
-              src="images/yogurt.png"
-              alt="yogurt app page"
+              src="images/coming.png"
+              alt="coming soon text"
               class="img-fluid rounded shadow p-2"
             />
           </div>
         </div>
       </div>
     </div>
+  <footer>
+    <div class="contact-footer">
+      <p>
+        <a href="https://github.com/NataNONR/weatherapp_lesson" target="_blank">
+          Open-source code
+        </a> 
+          by 
+        <a href="mailto:anblurry@gmail.com" class="email-link">
+          Nattha Oroz 
+        </a>
+        , hosted on Netlify
+        </br>     
+        <a href="https://linkedin.com/in/nattha-oroz-76234bb7" target="_blank">
+          <i class="fab fa-linkedin linkedin"></i>
+        </a>
+        <a href="https://instagram.com/aimetthecats?r=nametag" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </p>     
+    </div>
+  </footer>
+    <script src="script.js"></script>
   </body>
 </html>
