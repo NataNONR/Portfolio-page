@@ -23,6 +23,10 @@ button {
   margin-top: 60px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .primary-bg-and-text {
   color: #ffffff;
   background-color: #000000;
@@ -173,9 +177,6 @@ button {
   margin: 70px 0;
   font-size: 26px;
 }
-.contact-detail a {
-  text-decoration: none;
-}
 
 /* Typing Effect */
 .typewriter {
@@ -200,4 +201,18 @@ button {
   to {
     border-color: orange;
   }
+}
+
+footer {
+  margin-top: 100px;
+}
+.contact-footer p {
+  margin: 0;
+}
+.contact-footer {
+  background: #ffffff;
+  padding-top: 10px;
+  color: #000000;
+  display: block;
+  font-size: 14px;
 }
